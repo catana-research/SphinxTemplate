@@ -1,0 +1,4 @@
+SphinxTemplate
+==============
+
+.. include:: ../../README.rst

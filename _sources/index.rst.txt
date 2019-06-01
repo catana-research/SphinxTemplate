@@ -12,7 +12,6 @@ Welcome to SphinxTemplate's documentation!
 
    includeme
 
-
 Indices and tables
 ==================
 
