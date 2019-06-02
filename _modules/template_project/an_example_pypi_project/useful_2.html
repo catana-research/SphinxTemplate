@@ -74,7 +74,7 @@
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">return</span> <span class="mi">0</span>
 
-<div class="viewcode-block" id="public_fn_with_sphinxy_docstring"><a class="viewcode-back" href="../../../includeme.html#template_project.an_example_pypi_project.useful_2.public_fn_with_sphinxy_docstring">[docs]</a><span class="k">def</span> <span class="nf">public_fn_with_sphinxy_docstring</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">state</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<div class="viewcode-block" id="public_fn_with_sphinxy_docstring"><a class="viewcode-back" href="../../../an_example_pypi_project.html#template_project.an_example_pypi_project.useful_2.public_fn_with_sphinxy_docstring">[docs]</a><span class="k">def</span> <span class="nf">public_fn_with_sphinxy_docstring</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">state</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;This function does something.</span>
 
 <span class="sd">    :param name: The name to use.</span>
@@ -90,13 +90,13 @@
 <span class="k">def</span> <span class="nf">public_fn_without_docstring</span><span class="p">():</span>
     <span class="k">return</span> <span class="kc">True</span>
 
-<div class="viewcode-block" id="_private_fn_with_docstring"><a class="viewcode-back" href="../../../includeme.html#template_project.an_example_pypi_project.useful_2._private_fn_with_docstring">[docs]</a><span class="k">def</span> <span class="nf">_private_fn_with_docstring</span><span class="p">(</span><span class="n">foo</span><span class="p">,</span> <span class="n">bar</span><span class="o">=</span><span class="s1">&#39;baz&#39;</span><span class="p">,</span> <span class="n">foobarbas</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<div class="viewcode-block" id="_private_fn_with_docstring"><a class="viewcode-back" href="../../../an_example_pypi_project.html#template_project.an_example_pypi_project.useful_2._private_fn_with_docstring">[docs]</a><span class="k">def</span> <span class="nf">_private_fn_with_docstring</span><span class="p">(</span><span class="n">foo</span><span class="p">,</span> <span class="n">bar</span><span class="o">=</span><span class="s1">&#39;baz&#39;</span><span class="p">,</span> <span class="n">foobarbas</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;I have a docstring, but won&#39;t be imported if you just use ``:members:``.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">return</span> <span class="kc">None</span></div>
 
 
-<div class="viewcode-block" id="MyPublicClass"><a class="viewcode-back" href="../../../includeme.html#template_project.an_example_pypi_project.useful_2.MyPublicClass">[docs]</a><span class="k">class</span> <span class="nc">MyPublicClass</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+<div class="viewcode-block" id="MyPublicClass"><a class="viewcode-back" href="../../../an_example_pypi_project.html#template_project.an_example_pypi_project.useful_2.MyPublicClass">[docs]</a><span class="k">class</span> <span class="nc">MyPublicClass</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;We use this as a public class example class.</span>
 
 <span class="sd">    You never call this class before calling :func:`public_fn_with_sphinxy_docstring`.</span>
@@ -120,7 +120,7 @@
         <span class="bp">self</span><span class="o">.</span><span class="n">_foo</span> <span class="o">=</span> <span class="n">foo</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">_bar</span> <span class="o">=</span> <span class="n">bar</span>
 
-<div class="viewcode-block" id="MyPublicClass.get_foobar"><a class="viewcode-back" href="../../../includeme.html#template_project.an_example_pypi_project.useful_2.MyPublicClass.get_foobar">[docs]</a>    <span class="k">def</span> <span class="nf">get_foobar</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">foo</span><span class="p">,</span> <span class="n">bar</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+<div class="viewcode-block" id="MyPublicClass.get_foobar"><a class="viewcode-back" href="../../../an_example_pypi_project.html#template_project.an_example_pypi_project.useful_2.MyPublicClass.get_foobar">[docs]</a>    <span class="k">def</span> <span class="nf">get_foobar</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">foo</span><span class="p">,</span> <span class="n">bar</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;This gets the foobar</span>
 
 <span class="sd">        This really should have a full function definition, but I am too lazy.</span>
@@ -135,7 +135,7 @@
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="n">foo</span> <span class="o">+</span> <span class="n">bar</span></div>
 
-<div class="viewcode-block" id="MyPublicClass._get_baz"><a class="viewcode-back" href="../../../includeme.html#template_project.an_example_pypi_project.useful_2.MyPublicClass._get_baz">[docs]</a>    <span class="k">def</span> <span class="nf">_get_baz</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">baz</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<div class="viewcode-block" id="MyPublicClass._get_baz"><a class="viewcode-back" href="../../../an_example_pypi_project.html#template_project.an_example_pypi_project.useful_2.MyPublicClass._get_baz">[docs]</a>    <span class="k">def</span> <span class="nf">_get_baz</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">baz</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;A private function to get baz.</span>
 
 <span class="sd">        This really should have a full function definition, but I am too lazy.</span>

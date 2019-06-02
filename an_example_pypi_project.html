@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Documentation for the Code &#8212; SphinxTemplate  documentation</title>
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Style example" href="style.html" />
+    <link rel="prev" title="Welcome to SphinxTemplate’s documentation!" href="index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="style.html" title="Style example"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to SphinxTemplate’s documentation!"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">SphinxTemplate  documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-template_project.an_example_pypi_project">
+<span id="documentation-for-the-code"></span><h1>Documentation for the Code<a class="headerlink" href="#module-template_project.an_example_pypi_project" title="Permalink to this headline">¶</a></h1>
+<p>A pypi demonstration vehicle.</p>
+</div>
+<div class="section" id="useful-1-auto-members">
+<h1>useful #1 – auto members<a class="headerlink" href="#useful-1-auto-members" title="Permalink to this headline">¶</a></h1>
+<p>This is something I want to say that is not in the docstring.</p>
+<span class="target" id="module-template_project.an_example_pypi_project.useful_1"></span><span class="target" id="module-useful_1"></span><dl class="class">
+<dt id="template_project.an_example_pypi_project.useful_1.MyPublicClass">
+<em class="property">class </em><code class="descclassname">template_project.an_example_pypi_project.useful_1.</code><code class="descname">MyPublicClass</code><span class="sig-paren">(</span><em>foo</em>, <em>bar='baz'</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/template_project/an_example_pypi_project/useful_1.html#MyPublicClass"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#template_project.an_example_pypi_project.useful_1.MyPublicClass" title="Permalink to this definition">¶</a></dt>
+<dd><p>We use this as a public class example class.</p>
+<p>You never call this class before calling <a class="reference internal" href="#template_project.an_example_pypi_project.useful_1.public_fn_with_sphinxy_docstring" title="template_project.an_example_pypi_project.useful_1.public_fn_with_sphinxy_docstring"><code class="xref py py-func docutils literal notranslate"><span class="pre">public_fn_with_sphinxy_docstring()</span></code></a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>An example of intersphinx is this: you <strong>cannot</strong> use <code class="xref py py-mod docutils literal notranslate"><span class="pre">pickle</span></code> on this class.</p>
+</div>
+<dl class="method">
+<dt id="template_project.an_example_pypi_project.useful_1.MyPublicClass.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>foo</em>, <em>bar='baz'</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/template_project/an_example_pypi_project/useful_1.html#MyPublicClass.__init__"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#template_project.an_example_pypi_project.useful_1.MyPublicClass.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>A really simple class.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>foo</strong> (<em>str</em>) – We all know what foo does.</p>
+</dd>
+</dl>
+<dl class="simple">
+<dt>Kwargs:</dt><dd><p>bar (str): Really, same as foo.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="template_project.an_example_pypi_project.useful_1.MyPublicClass._get_baz">
+<code class="descname">_get_baz</code><span class="sig-paren">(</span><em>baz=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/template_project/an_example_pypi_project/useful_1.html#MyPublicClass._get_baz"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#template_project.an_example_pypi_project.useful_1.MyPublicClass._get_baz" title="Permalink to this definition">¶</a></dt>
+<dd><p>A private function to get baz.</p>
+<p>This really should have a full function definition, but I am too lazy.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="template_project.an_example_pypi_project.useful_1.MyPublicClass.get_foobar">
+<code class="descname">get_foobar</code><span class="sig-paren">(</span><em>foo</em>, <em>bar=True</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/template_project/an_example_pypi_project/useful_1.html#MyPublicClass.get_foobar"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#template_project.an_example_pypi_project.useful_1.MyPublicClass.get_foobar" title="Permalink to this definition">¶</a></dt>
+<dd><p>This gets the foobar</p>
+<p>This really should have a full function definition, but I am too lazy.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="n">get_foobar</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>
+<span class="go">30</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="n">get_foobar</span><span class="p">(</span><span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">)</span>
+<span class="go">ab</span>
+</pre></div>
+</div>
+<p>Isn’t that what you want?</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="template_project.an_example_pypi_project.useful_1._private_fn_with_docstring">
+<code class="descclassname">template_project.an_example_pypi_project.useful_1.</code><code class="descname">_private_fn_with_docstring</code><span class="sig-paren">(</span><em>foo</em>, <em>bar='baz'</em>, <em>foobarbas=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/template_project/an_example_pypi_project/useful_1.html#_private_fn_with_docstring"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#template_project.an_example_pypi_project.useful_1._private_fn_with_docstring" title="Permalink to this definition">¶</a></dt>
+<dd><p>I have a docstring, but won’t be imported if you just use <code class="docutils literal notranslate"><span class="pre">:members:</span></code>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="template_project.an_example_pypi_project.useful_1.public_fn_with_googley_docstring">
+<code class="descclassname">template_project.an_example_pypi_project.useful_1.</code><code class="descname">public_fn_with_googley_docstring</code><span class="sig-paren">(</span><em>name</em>, <em>state=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/template_project/an_example_pypi_project/useful_1.html#public_fn_with_googley_docstring"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#template_project.an_example_pypi_project.useful_1.public_fn_with_googley_docstring" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function does something.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>name</strong> (<em>str</em>) – The name to use.</p>
+</dd>
+</dl>
+<dl class="simple">
+<dt>Kwargs:</dt><dd><p>state (bool): Current state to be in.</p>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p><p>int.  The return code:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>0 -- Success!
+1 -- No good.
+2 -- Try again.
+</pre></div>
+</div>
+</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>AttributeError</strong><strong>, </strong><strong>KeyError</strong> – </p>
+</dd>
+</dl>
+<p>A really great idea.  A way you might use me is</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="n">public_fn_with_googley_docstring</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;foo&#39;</span><span class="p">,</span> <span class="n">state</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+<span class="go">0</span>
+</pre></div>
+</div>
+<p>BTW, this always returns 0.  <strong>NEVER</strong> use with <a class="reference internal" href="#template_project.an_example_pypi_project.useful_1.MyPublicClass" title="template_project.an_example_pypi_project.useful_1.MyPublicClass"><code class="xref py py-class docutils literal notranslate"><span class="pre">MyPublicClass</span></code></a>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="template_project.an_example_pypi_project.useful_1.public_fn_with_sphinxy_docstring">
+<code class="descclassname">template_project.an_example_pypi_project.useful_1.</code><code class="descname">public_fn_with_sphinxy_docstring</code><span class="sig-paren">(</span><em>name</em>, <em>state=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/template_project/an_example_pypi_project/useful_1.html#public_fn_with_sphinxy_docstring"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#template_project.an_example_pypi_project.useful_1.public_fn_with_sphinxy_docstring" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function does something.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> (<em>str.</em>) – The name to use.</p></li>
+<li><p><strong>state</strong> (<em>bool.</em>) – Current state to be in.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>int – the return code.</p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>AttributeError, KeyError</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="useful-2-explicit-members">
+<h1>useful #2 – explicit members<a class="headerlink" href="#useful-2-explicit-members" title="Permalink to this headline">¶</a></h1>
+<p>This is something I want to say that is not in the docstring.</p>
+<span class="target" id="module-template_project.an_example_pypi_project.useful_2"></span><span class="target" id="module-useful_2"></span><dl class="function">
+<dt id="template_project.an_example_pypi_project.useful_2.public_fn_with_sphinxy_docstring">
+<code class="descclassname">template_project.an_example_pypi_project.useful_2.</code><code class="descname">public_fn_with_sphinxy_docstring</code><span class="sig-paren">(</span><em>name</em>, <em>state=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/template_project/an_example_pypi_project/useful_2.html#public_fn_with_sphinxy_docstring"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#template_project.an_example_pypi_project.useful_2.public_fn_with_sphinxy_docstring" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function does something.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>name</strong> (<em>str.</em>) – The name to use.</p></li>
+<li><p><strong>state</strong> (<em>bool.</em>) – Current state to be in.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>int – the return code.</p>
+</dd>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p>AttributeError, KeyError</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="template_project.an_example_pypi_project.useful_2._private_fn_with_docstring">
+<code class="descclassname">template_project.an_example_pypi_project.useful_2.</code><code class="descname">_private_fn_with_docstring</code><span class="sig-paren">(</span><em>foo</em>, <em>bar='baz'</em>, <em>foobarbas=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/template_project/an_example_pypi_project/useful_2.html#_private_fn_with_docstring"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#template_project.an_example_pypi_project.useful_2._private_fn_with_docstring" title="Permalink to this definition">¶</a></dt>
+<dd><p>I have a docstring, but won’t be imported if you just use <code class="docutils literal notranslate"><span class="pre">:members:</span></code>.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="class">
+<h1>class<a class="headerlink" href="#class" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="template_project.an_example_pypi_project.useful_2.MyPublicClass">
+<em class="property">class </em><code class="descclassname">template_project.an_example_pypi_project.useful_2.</code><code class="descname">MyPublicClass</code><span class="sig-paren">(</span><em>foo</em>, <em>bar='baz'</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/template_project/an_example_pypi_project/useful_2.html#MyPublicClass"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#template_project.an_example_pypi_project.useful_2.MyPublicClass" title="Permalink to this definition">¶</a></dt>
+<dd><p>We use this as a public class example class.</p>
+<p>You never call this class before calling <a class="reference internal" href="#template_project.an_example_pypi_project.useful_2.public_fn_with_sphinxy_docstring" title="template_project.an_example_pypi_project.useful_2.public_fn_with_sphinxy_docstring"><code class="xref py py-func docutils literal notranslate"><span class="pre">public_fn_with_sphinxy_docstring()</span></code></a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>An example of intersphinx is this: you <strong>cannot</strong> use <code class="xref py py-mod docutils literal notranslate"><span class="pre">pickle</span></code> on this class.</p>
+</div>
+<dl class="method">
+<dt id="template_project.an_example_pypi_project.useful_2.MyPublicClass._get_baz">
+<code class="descname">_get_baz</code><span class="sig-paren">(</span><em>baz=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/template_project/an_example_pypi_project/useful_2.html#MyPublicClass._get_baz"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#template_project.an_example_pypi_project.useful_2.MyPublicClass._get_baz" title="Permalink to this definition">¶</a></dt>
+<dd><p>A private function to get baz.</p>
+<p>This really should have a full function definition, but I am too lazy.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="template_project.an_example_pypi_project.useful_2.MyPublicClass.get_foobar">
+<code class="descname">get_foobar</code><span class="sig-paren">(</span><em>foo</em>, <em>bar=True</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/template_project/an_example_pypi_project/useful_2.html#MyPublicClass.get_foobar"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#template_project.an_example_pypi_project.useful_2.MyPublicClass.get_foobar" title="Permalink to this definition">¶</a></dt>
+<dd><p>This gets the foobar</p>
+<p>This really should have a full function definition, but I am too lazy.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="n">get_foobar</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>
+<span class="go">30</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span> <span class="n">get_foobar</span><span class="p">(</span><span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">)</span>
+<span class="go">ab</span>
+</pre></div>
+</div>
+<p>Isn’t that what you want?</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Documentation for the Code</a></li>
+<li><a class="reference internal" href="#useful-1-auto-members">useful #1 – auto members</a></li>
+<li><a class="reference internal" href="#useful-2-explicit-members">useful #2 – explicit members</a></li>
+<li><a class="reference internal" href="#class">class</a></li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Welcome to SphinxTemplate’s documentation!</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="style.html"
+                        title="next chapter">Style example</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/an_example_pypi_project.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="style.html" title="Style example"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to SphinxTemplate’s documentation!"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">SphinxTemplate  documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, Mark Baber.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.0.1.
+    </div>
+  </body>
+</html>
