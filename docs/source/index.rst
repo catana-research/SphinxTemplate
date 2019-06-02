@@ -11,7 +11,8 @@ Welcome to SphinxTemplate's documentation!
    :caption: Contents:
 
    includeme
-
+   style
+   template
 
 Indices and tables
 ==================
