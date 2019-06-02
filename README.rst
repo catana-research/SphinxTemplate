@@ -1,3 +1,6 @@
+.. include:: docs/source/index.rst
+
+
 Documentation for the Code
 **************************
 
