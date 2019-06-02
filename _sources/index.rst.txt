@@ -11,8 +11,11 @@ Welcome to SphinxTemplate's documentation!
    :caption: Contents:
 
    includeme
+<<<<<<< HEAD:docs/source/index.rst
    style
    template
+=======
+>>>>>>> bc4c1e55527eca5ebcc15e9325a114c01576397a:_sources/index.rst.txt
 
 Indices and tables
 ==================
